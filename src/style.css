@@ -1,0 +1,19 @@
+:root {
+    --backgroundColour: darkgrey;
+    --frontColour: white;
+}
+
+
+body {
+    background-color: var(--backgroundColour);
+    color: var(--frontColour);
+}
+
+/*
+Example JS
+
+body.style.backgroundColor = "blue";
+
+document.style.someVariable = "blue";
+
+*/

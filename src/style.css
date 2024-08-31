@@ -1,21 +1,55 @@
 :root {
-    --backgroundColour: darkgrey;
-    --frontColour: white;
+	--backgroundColour: darkgrey;
+	--fontColour: white;
 
-    --theme-100: #4641d1;
+	--theme-100: #4641d1;
 }
 
 
 body {
-    background-color: var(--backgroundColour);
-    color: var(--frontColour);
+	background-color: var(--backgroundColour);
+	color: var(--fontColour);
 }
 
-/*
+#diceImage {
+	width: 20dvw;
+
+	position: relative;
+	text-align: center;
+
+
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+
+	img {
+		width: 100%;
+	}
+
+	p {
+		position: absolute;
+		top: 35%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+#diceRollingArea {
+	background-color: var(--theme-100);
+	width: 90dvw;
+	min-height: 50dvh;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* 
 Example JS
 
 body.style.backgroundColor = "blue";
 
+
 document.style.someVariable = "blue";
+
 
 */
